@@ -1,0 +1,49 @@
+# ==============================================
+# Cold-Chain Logistics Risk Monitor — .gitignore
+# ==============================================
+
+# Environment & secrets — NEVER commit these
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# API response cache (regenerated on each run by run_pipeline.py)
+data/.api_cache/
+.cache/
+*.sqlite
+
+# Generated data file (produced by run_pipeline.py at runtime)
+data/daily_forecast.csv
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

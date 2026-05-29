@@ -1,0 +1,6 @@
+cargo_type_id,cargo_name,temp_min_f,temp_max_f,humidity_min_pct,humidity_max_pct,regulatory_body
+1,Pharmaceuticals,35.6,46.4,30.0,60.0,FDA
+2,Fresh Produce,32.0,39.2,85.0,95.0,USDA
+3,Frozen Goods,-99.0,-0.4,0.0,100.0,FDA
+4,Dairy,33.8,39.2,70.0,80.0,FDA
+5,Vaccines & Biologics,35.6,46.4,35.0,55.0,WHO

@@ -1,0 +1,19 @@
+# Cold-Chain Logistics Risk Monitor
+# Install with: pip install -r requirements.txt
+
+# API & HTTP
+openmeteo-requests==0.3.3
+requests-cache==1.2.1
+retry-requests==2.0.0
+
+# Data processing
+numpy==1.26.4
+pandas==2.2.2
+openpyxl==3.1.2
+
+# Database
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+
+# Environment
+python-dotenv==1.0.1
